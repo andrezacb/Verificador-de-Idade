@@ -1,0 +1,111 @@
+*{
+    padding:0 ;
+    margin: 0;
+}
+
+@font-face {
+    font-family:'arastin' ;
+    src: url('font/Arastin\ Pro.ttf') format('truetype');
+}
+@font-face {
+    font-family:'rumble' ;
+    src: url('font/Rumble\ Brave.otf') format('opentype');
+}
+
+@font-face {
+    font-family:'mor' ;
+    src: url('font/The\ Morshine.otf') format('opentype');
+}
+
+body{
+    background-image: url('fotos/fundo.png');
+    background-repeat: no-repeat;
+    background-size: 1500px;
+    background-color: black; 
+}
+
+
+section{
+    background-image: url('fotos/celular.png');
+    background-repeat: no-repeat;
+    background-size: 330px;
+    height: 630px;
+    margin-left: 40%;
+    margin-top: 2%;
+    
+}
+
+.area{
+   max-width: 800px;
+   min-width: 320px;
+   text-align: center;
+   width: 260px;
+   height: 550px;
+   font-family: 'rumble';
+   color: rgb(134, 251, 55) ;
+   text-shadow: 1px 1px #a207b0;
+}
+
+h1{
+    color:#03FA6E;
+    text-shadow:1px 2px #a207b0;
+    font-family: 'arastin';
+    font-size: 30px;
+}
+
+.dados{
+   text-align: center;
+   margin-top: 10%;
+   font-size: 19px;
+}
+
+.info{
+    width: 200px;
+    height: 20px;
+    margin-top: 10px;
+    padding: 1%;
+    border-radius: 8px;
+    border: 4px double #04cd0b;
+    box-shadow: 2px 2px  #59ff06;
+   font-family: 'rumble';
+   font-size: 15px;
+}
+
+input:focus{
+    outline: 0;
+    box-shadow: 0000;
+    background: #f692ff5c;
+}
+
+
+#botao{
+    width: 150px;
+    height: 30px;
+    padding-bottom: 9%;
+    border: 2px groove darkmagenta;
+    background: #04cd0b;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px #a207b0;
+    cursor: pointer;
+    font-family: 'rumble';
+    font-size: 22px;
+    text-shadow: 1px 1px #a207b0;
+}
+#botao:hover{
+background: #59ff06;
+}
+img{
+    width: 200px;
+}
+
+#res{
+   text-align: center;
+   font-family: 'mor';
+   font-size: 25px;
+   color: rgb(255, 255, 255) ;
+   text-shadow: 1px 1px #c800ff;
+}
+
+#foto{
+    width: 180px;
+}

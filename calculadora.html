@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <br>
+        <div class="area">
+            <div class="dados">
+                <header><h1>Verifique Sua<br>Idade</h1></header>
+                <input type="text" name="nome" id="nome" placeholder="Nome Completo" class="info">
+                <br>
+                <input type="number" name="AnoNasc" id="AnoNasc" placeholder="Ano de Nascimento" class="info">
+                <br>
+                <br>
+                <label for="sexo">Sexo-</label>
+                <label for="mas" class="sexo2">Masculino</label>
+                <input type="radio" name="sexo1" id="mas" checked>
+                <label for="fem" class="sexo2">Feminino</label>
+                <input type="radio" name="sexo1" id="fem">
+                <br>
+                <br>
+                <button id="botao" onclick="verificar()"  >Verificar</button>
+            </div>
+            <br>
+            <div id="res">
+                <label>Verificar o resultado aqui...</label>
+            </div>
+        </div>
+    </section>
+    <script src="verificador.js"></script>
+</body>
+</html>
